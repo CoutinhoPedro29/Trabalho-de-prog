@@ -1,6 +1,6 @@
 import javax.swing.*;
 import java.awl.*;
-import view.aluno;
+import view.AlunoView;
 public class Dados 
 {
    private JFrame frame;
