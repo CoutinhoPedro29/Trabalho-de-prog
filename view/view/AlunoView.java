@@ -51,6 +51,10 @@ public class AlunoView {
 	public void delete() {
 		sql = "Delete FROM Aluno where matricula=0";
 	}
+      public void insert(char nome, int matricula, char cidade)
+      {
+        String sql="Insert From aluno values(%s, %d, %s)", +nome, +matricula,+cidade ;
+      } 
 
 	public static void main(String[] args) {
 		// inicia
