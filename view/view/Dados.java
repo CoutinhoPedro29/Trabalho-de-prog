@@ -6,6 +6,7 @@ public class Dados
    private JPanel tela; 
    private JLabel titulo;
    private JTextField  nome;
+   private JTextField cidade;
 private JTextField matrícula ;
    private JButton Ad;
    public Inicio( )
@@ -25,11 +26,13 @@ private JTextField matrícula ;
         frame.setvisible(true);
         nome=TextField("Nome :");
         tela.add(nome );
-matricula=TextField(Matrcula:);
+matricula=TextField(Matricula:);
 tela.add(matricula);
+    Cidade=TextField(cidade:);
+    tela.add(cidade);
         Ad = new JButton("Adicionar");
         tela.add(Ad);
-        Ad=insert(nome, matricula);
+        Ad=insert(nome, matricula, cidade);
         
 }   
 }
